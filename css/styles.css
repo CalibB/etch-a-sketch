@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-family: "East Sea Dokdo", sans-serif;
+}
+
+/* Reset */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
