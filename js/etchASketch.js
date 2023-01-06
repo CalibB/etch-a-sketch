@@ -73,5 +73,23 @@ changeGridBtn.addEventListener('click', () => {
             square.classList.add("square");
             grid.appendChild(square);
         }
+
+        // Adding event listeners again for colour change
+        
+        const squares = document.querySelectorAll('.square');
+
+        squares.forEach((square) => {
+            square.addEventListener('mouseover', (e) => {
+                let randoNum1 = randomNum();
+                let randoNum2 = randomNum();
+                let randoNum3 = randomNum();
+        
+                if (e.ctrlKey) {
+                    // Do nothing as a way for better improvement on the grid
+                } else {
+                    e.target.style.backgroundColor = `rgb(${randoNum1}, ${randoNum2}, ${randoNum3})`;
+                }  
+            })
+        });
     }
 })
