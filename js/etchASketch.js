@@ -91,5 +91,13 @@ changeGridBtn.addEventListener('click', () => {
                 }  
             })
         });
+
+        // Adding event listener again for clearing the new grid
+
+        clearBtn.addEventListener('click', () => {
+            squares.forEach((square) => {
+                square.style.backgroundColor = '#EAFDFC';
+            })
+        });
     }
 })
