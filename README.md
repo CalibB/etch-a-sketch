@@ -5,7 +5,7 @@ show my command on DOM skills.
 
 ## Overview
 - Users will be presented with a predefined grid that's 16x16.
-- If the user hovers their mouse over each individual block, you'll notice that the colour changes and lingers for a few seconds before disappearing. Sort of leaving a trail.
+- If the user hovers their mouse over each individual block, you'll notice that the colour changes and leaves a trail.
 - Users will also notice a button atop of the grid that when clicked, they'll get prompted to enter a preferred grid dimension up to 100x100.
 
 ### Attributions
