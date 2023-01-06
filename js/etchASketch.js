@@ -15,3 +15,7 @@ for (let i = 1; i <= gridDimensions; i++) {
     square.classList.add("square");
     grid.appendChild(square);
 }
+
+function randomNum() {
+    return (Math.floor(Math.random() * 100));
+};
