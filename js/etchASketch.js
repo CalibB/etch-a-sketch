@@ -1,12 +1,12 @@
 const grid = document.querySelector(".grid");
-let topDimension = 16;
-let bottomDimension = 16;
-let gridDimensions = topDimension * bottomDimension;
+let width = 16;
+let height = 16;
+let gridDimensions = width * height;
 
 // Setting columns and rows for the grid
 
-grid.style.gridTemplateColumns = `repeat(${topDimension}, 1fr)`;
-grid.style.gridTemplateRows = `repeat(${bottomDimension}, 1fr)`;
+grid.style.gridTemplateColumns = `repeat(${width}, 1fr)`;
+grid.style.gridTemplateRows = `repeat(${height}, 1fr)`;
 
 // Creating the grid
 
