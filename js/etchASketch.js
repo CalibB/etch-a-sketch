@@ -35,3 +35,11 @@ squares.forEach((square) => {
         }  
     })
 });
+
+const clearBtn = document.querySelector('.clear__btn');
+
+clearBtn.addEventListener('click', () => {
+    squares.forEach((square) => {
+        square.style.backgroundColor = '#EAFDFC';
+    })
+});
